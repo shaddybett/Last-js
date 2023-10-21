@@ -15,3 +15,12 @@ function calculateArea(){
         console.log(`This is my ${radii[i]} and this is my ${area}`)
     }
 }calculateArea();
+
+function calculate(radius,logic){
+    if(logic ==='area'){
+        return Math.PI*radius*radius
+    }
+    else{
+        return radius*radius
+    }
+}console.log(calculate(6,'area'));
