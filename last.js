@@ -1,6 +1,17 @@
 let array = ['sheep','goat','camel']
 
 function myPets(){
-    let array = ['Dog']
-    console.log(`my ${array}`)
-}myPets()
+    for(let i = 0;i<array.length;i++){
+        
+        console.log(`This is my ${array[i]}`)
+    }
+}myPets();
+
+let radii = [4,6,8,9]
+
+function calculateArea(){
+    for(let i = 0;i<radii.length;i++){
+        const area = Math.PI*radii[i]*radii[i];
+        console.log(`This is my ${radii[i]} and this is my ${area}`)
+    }
+}calculateArea();
